@@ -1,0 +1,104 @@
+/* html {
+  font: 12px "Lato", "Helvetica Neue", helvetica, arial, sans-serif;
+  line-height: 1.5;
+} */
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.app {
+  position: relative;
+  max-width: 1920px;
+  min-width: 1023px;
+  height: 100vh;
+  margin: auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+.wrapper {
+  display: flex;
+}
+.nav-global{
+justify-content: space-between;
+background: #177483;
+flex-shrink: 0;
+height: 60px;
+width: 100%;
+padding-left: 30px
+}
+.nav-global-section, .nav-utility {
+  -ms-flex-align: center;
+  align-items: center;
+}
+.list-no-style {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nav-global-item{
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom: 5px solid transparent;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.nav-global-item-link{
+  position: relative;
+  top: 3px;
+  display: block;
+  font-size: 1.16667rem;
+  padding: 27px 5px;
+  color: #fff !important;
+  font-family: "Lato-Light", arial narrow, arial, sans-serif;
+}
+.nav-utility-item{
+  border-bottom: 5px solid transparent;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.nav-utility-item-link {
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  color: #fff !important;
+  font-family: "Lato-Light", arial narrow, arial, sans-serif;
+}
+.nav-utility-item-text {
+  line-height: 1;
+}
+.nav-utility-item-link:before {
+  font-size: 1.66667rem;
+  margin-bottom: 10px;
+}
+.unread-indicator {
+  display: inline-block;
+  background: #d0db9a;
+  border-radius: 50%;
+  height: 8px;
+  margin-right: 5px;
+  width: 8px;
+  margin-top: 2px;
+}
+.d-Flex{
+  display: flex;
+}
+.text-center{
+text-align: center;
+}
+.m-r-50{
+  margin-right: 50px;
+}
